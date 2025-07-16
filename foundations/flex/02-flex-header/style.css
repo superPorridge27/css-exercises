@@ -1,6 +1,28 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  align-self: center;
+}
+
+.right-links {
+  align-self: center;
+}
+
+.left-links ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.right-links ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .logo {
@@ -8,7 +30,9 @@
   font-weight: 900;
   color: tomato;
   background: white;
+  /* box-sizing: border-box; */
   padding: 4px 32px;
+  margin: 8px;
 }
 
 ul {
