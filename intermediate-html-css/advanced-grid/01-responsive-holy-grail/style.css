@@ -11,6 +11,8 @@ html {
   box-sizing: border-box;
   display: grid;
   gap: 15px;
+  grid-template-columns: 2fr 6fr;
+  grid-template-rows: 1fr 1fr repeat(auto-fit, minmax(min-content, 1fr)) 1fr;
 }
 
 .container div {
